@@ -1,0 +1,18 @@
+.footer-container {
+    color: rgb(187, 183, 183);
+    background-color: #131313;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-block {
+    width: 50vw;
+    flex-direction: column;
+    padding: 4vh;
+}
+.links > a{
+    margin-right: 3vh;
+}
+.footer-block > div > span {
+    margin: 3vw;
+}

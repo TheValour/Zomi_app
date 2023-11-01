@@ -1,0 +1,117 @@
+.home-container {
+    font-family: 'Sometype Mono', monospace;
+    background-color: #191919;    
+    width: 100vw;
+}
+.top-section {
+    padding: 10vh 5vw 0 5vw;
+}
+.home-desc {
+    margin-top: 4vh;
+    width: 40vw;
+}
+.top-section > button{
+    background-color: #3eb489;
+    margin: 6vh 0 6vh 0;
+    padding: 2vh;
+    border: none;
+    border-radius: 4px;
+}
+/* ------- middle Section ---------- */
+.middle-section {
+    margin: 4vh 0 4vh 0;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.middle-section > .small-box {
+    width: 28vw;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(199, 196, 196);
+    padding: 4vh;
+}
+
+/* ------- Down Section ---------- */
+.down-section {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 4vh;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sub-box {
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 2vh;
+}
+.down-section > .small-box {
+    max-width: 25vw;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* -------- Bottom Section ------ */
+.bottom-section {
+    margin: 5vh 0 5vh 0;
+    padding: 10vh 5vw 0 5vw;
+}
+.cards {
+    width: 100%;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.card-container {
+    border: 1px solid gray;
+    width: 40vw;
+    padding: 2vh ;
+}
+.card-container > div > img {
+    width: 8vh;
+}
+.card-image {
+    display: flex;
+    margin-bottom: 4vh;
+    align-items: center;
+}
+.card-container > div > button {
+    padding: 1vh;
+    margin: 3vh 3vh 3vh 0;
+}
+
+/* --- media query --------- */
+
+@media (max-width: 750px) {
+    .middle-section{
+        flex-direction: column;
+        gap: 3vh;
+        align-items: start;
+    }
+    .middle-section > .small-box{
+        width: 40vw;
+    }
+    .down-section > .small-box {
+        max-width: 50vw;
+        align-items: start;
+    }
+    .card-container {
+        width: 50vw;
+    }
+    .cards {
+        flex-direction: column;
+        width: 60vw;
+        gap: 2vh;
+    }
+    
+}
+@media (max-width: 550px) {
+    .middle-section > .small-box{
+        width: 50vw;
+    }
+    .down-section {
+        flex-direction: column;
+        align-items: start;
+        gap: 3vh;
+    }
+    
+}

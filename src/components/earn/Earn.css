@@ -1,0 +1,6 @@
+.earn-subblock {
+    @apply border-b border-white p-4 text-gray-300
+}
+.earn-inner {
+    @apply flex justify-between
+}
