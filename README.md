@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# Zomi Finance App Clone - React Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Zomi Finance App Clone, a React-based web application that replicates the user interface of the Zomi Finance app. This readme file will provide you with information on how to set up and run the application, as well as a brief overview of its features and technologies used.
+
+
+![Alt text](image.png)
+
+![Alt text](image-1.png)
+
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [Folder Structure](#folder-structure)
+- [Available Scripts](#available-scripts)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Prerequisites
+
+Before you can run the Zomi Finance App Clone, you need to ensure that you have the following prerequisites installed on your system:
+
+- Node.js: Download and install Node.js from [https://nodejs.org/](https://nodejs.org/).
+
+## Getting Started
+
+1. Clone the repository to your local machine:
+
+   ```
+   git clone https://github.com/TheValour/Zomi_app.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```
+   cd Zomi_app
+   ```
+
+3. Install the project dependencies using npm:
+
+   ```
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```
+   npm start
+   ```
+
+5. Open your web browser and visit [http://localhost:3000](http://localhost:3000) to access the Zomi Finance App Clone.
+
+## Folder Structure
+
+The project structure is organized as follows:
+
+- `src/`: Contains the source code for the application.
+- `public/`: Contains the public assets and HTML template.
+- `package.json`: Defines project dependencies and scripts.
+- `README.md`: The readme file you are currently reading.
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run the following scripts:
 
-### `npm start`
+- `npm start`: Starts the development server for the app in development mode.
+- `npm build`: Builds the app for production to the `build` folder.
+- `npm test`: Launches the test runner in interactive watch mode.
+- `npm eject`: This command will remove the single build dependency from your project.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The application is built using the following technologies:
 
-### `npm test`
+- React: A JavaScript library for building user interfaces.
+- React Router: For handling routing within the application.
+- Axios: For making HTTP requests to interact with a backend API.
+- TawilWind Css: For UI components and styling.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contributing
 
-### `npm run build`
+If you'd like to contribute to the project, please follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your fork.
+5. Create a pull request to the original repository.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## License
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project is licensed under the MIT License. Please see the [LICENSE](LICENSE) file for more details.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to reach out if you have any questions or need further assistance with the Zomi Finance App Clone. Happy coding!😍😍😍
